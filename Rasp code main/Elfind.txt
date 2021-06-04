@@ -1,0 +1,11 @@
+Elfind directions:
+
+Run Elfind from a DOS prompt with no command line argument.  Have unid.txt and Stations.in in the same directory with Elfind.  Unid.txt is a set of satellite observations in IOD format.  Select two or three observations which occur on the same pass (i.e. 1 2 3) and elfind will find the orbit elements based on those observations.  The epoch will be the time/date of the second observation.  The computed TLE will be appended to the bottom of the input file. (odata.txt in this case).  Select two points to get a circular approximation to the orbit and three points for an elliptical fit.
+
+Any input/output file other than unid.txt may be named as a command line argument.  Unid.txt is the default if no argument follows the program name.
+
+Program source codes are included.  Compile elfind.cpp in the presence of date.h. Date.h provides two classes of objects, a date object and a location object. 
+
+The F and G Series.pdf file documentation can only be viewed with Adobe Acrobat 6.0 or greater.  It was created using EXP and Acrobat 4.0.  Strangely enough, the Acrobat 5.0 reader will not render my .pdf files created in this manner, but 6.0 will accurately decode them. Please feel free to use any of my code in your project.
+
+Scott Campbell 

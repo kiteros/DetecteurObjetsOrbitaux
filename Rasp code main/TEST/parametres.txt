@@ -1,0 +1,2 @@
+Time,Input,Output,Boussole,AngleVert,AngleHoriz,Focale,Pixsize,StationNumber,StationStatut,TmpsExposition
+20210416210938323,pic_2021-04-16+16-38-19+m+913.jpg,pic_2021-04-16+16-38-19+m+913_output.jpg,36.45,0.23,2.3,35,5.97,0001,F,6
